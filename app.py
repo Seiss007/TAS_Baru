@@ -20,7 +20,7 @@ from sklearn.svm import SVC
 # ==========================================
 # KONFIGURASI HALAMAN
 # ==========================================
-st.set_page_config(layout="wide", page_title="AI Model App", page_icon="🌐", initial_sidebar_state="expanded")
+st.set_page_config(layout="wide", page_title="AI Model App", initial_sidebar_state="expanded")
 
 # ==========================================
 # FACEBOOK-STYLE CSS
