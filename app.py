@@ -224,7 +224,7 @@ else:
 
     st.success(f"Berhasil melatih {st.session_state.model_name} dengan dataset {st.session_state.dataset_name}.")
 
-    tab1, tab2 = st.tabs(["📊 Visualisasi", "📈 Evaluasi"])
+    tab1, tab2 = st.tabs(["Visualisasi", "Evaluasi"])
     
     # --- TAB 1: VISUALISASI ---
     with tab1:
