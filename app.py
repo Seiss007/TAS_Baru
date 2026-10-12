@@ -199,9 +199,7 @@ if btn_train:
         st.session_state.model_name = model_name
         st.session_state.dataset_name = dataset_name
 
-# ==========================================
-# MAIN PAGE UI
-# ==========================================
+
 st.markdown('<div class="fb-header">Machine Learning App</div>', unsafe_allow_html=True)
 st.markdown("<p style='color:#65676B; margin-top:-10px; margin-bottom:20px;'>Platform analisis Machine Learning sederhana.</p>", unsafe_allow_html=True)
 
