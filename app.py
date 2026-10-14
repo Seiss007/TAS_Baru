@@ -73,8 +73,8 @@ def describe_result(res: dict) -> str:
 # Sidebar
 # ======================================================================
 with st.sidebar:
-    st.markdown('<div class="brand">Machine Learning</div>'
-                '<div class="brand-sub">672023230</div>',
+    st.markdown('<div class="brand">Machine<span>Learning</span></div>'
+                '<div class="brand-sub">672023230 </div>',
                 unsafe_allow_html=True)
     mode = st.radio("Mode", MODES)
     dataset_name = st.selectbox(
