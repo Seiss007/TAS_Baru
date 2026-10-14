@@ -49,7 +49,7 @@ header[data-testid="stHeader"]{background:transparent;}
   letter-spacing:.03em; margin:.5rem 0 .6rem; color:#fff;
 }
 .hero-title em{font-style:normal; color:var(--red);}
-.hero-sub{font-family:'Playfair Display',serif; font-style:italic; font-size:1.2rem; color:#D4D4E0; max-width:640px; margin-bottom:1.2rem;}
+.hero-sub{font-family:'Playfair Display',serif; font-size:1.2rem; color:#D4D4E0; max-width:640px; margin-bottom:1.2rem;}
 .chips{display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.3rem;}
 .chip{padding:.28rem .8rem; border:1px solid rgba(255,255,255,.18); border-radius:999px; font-size:.76rem; font-weight:500; color:#E8E8F0; background:rgba(255,255,255,.05);}
 .chip.hot{border-color:rgba(229,9,20,.7); background:rgba(229,9,20,.16);}
@@ -128,7 +128,7 @@ def hero_html(n_datasets: int, n_realtime: int) -> str:
     chip_html = "".join(f'<span class="chip {c}">{escape(t)}</span>' for t, c in chips)
     return f"""
 <div class="hero">
-  <div class="hero-eyebrow">Now streaming · Machine Learning Lab</div>
+  <div class="hero-eyebrow">Machine Learning Lab</div>
   <div class="hero-title">ML <em>STUDIO</em></div>
   <div class="hero-sub">Latih model, temukan pola tersembunyi, lalu diskusikan hasilnya bersama komunitas.</div>
   <div class="chips">{chip_html}</div>
