@@ -49,7 +49,7 @@ header[data-testid="stHeader"]{background:transparent;}
   letter-spacing:.03em; margin:.5rem 0 .6rem; color:#fff;
 }
 .hero-title em{font-style:normal; color:var(--red);}
-.hero-sub{font-family:'Playfair Display',serif; font-size:1.2rem; color:#D4D4E0; max-width:640px; margin-bottom:1.2rem;}
+.hero-sub{font-family:'Arial'; font-size:1.2rem; color:#D4D4E0; max-width:640px; margin-bottom:1.2rem;}
 .chips{display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.3rem;}
 .chip{padding:.28rem .8rem; border:1px solid rgba(255,255,255,.18); border-radius:999px; font-size:.76rem; font-weight:500; color:#E8E8F0; background:rgba(255,255,255,.05);}
 .chip.hot{border-color:rgba(229,9,20,.7); background:rgba(229,9,20,.16);}
