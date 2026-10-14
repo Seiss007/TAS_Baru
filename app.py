@@ -14,7 +14,7 @@ from studio import catalog, charts, llm, models, storage
 from studio.compat import STRETCH
 from studio.styles import CSS, hero_html, poster_grid_html, section_title
 
-st.set_page_config(page_title="ML Studio", page_icon="🎬", layout="wide",
+st.set_page_config(page_title="Machine Learning", page_icon="💀", layout="wide",
                    initial_sidebar_state="expanded")
 st.markdown(CSS, unsafe_allow_html=True)
 
@@ -73,8 +73,8 @@ def describe_result(res: dict) -> str:
 # Sidebar
 # ======================================================================
 with st.sidebar:
-    st.markdown('<div class="brand">ML<span>STUDIO</span></div>'
-                '<div class="brand-sub">Machine Learning Streaming Lab</div>',
+    st.markdown('<div class="brand">Machine Learning</div>'
+                '<div class="brand-sub">672023230</div>',
                 unsafe_allow_html=True)
     mode = st.radio("Mode", MODES)
     dataset_name = st.selectbox(
