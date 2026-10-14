@@ -1,5 +1,5 @@
-env/
-.streamlit/
+.streamlit/secrets.toml
+comments_local.json
+comments_local.json.tmp
 __pycache__/
 *.pyc
--
