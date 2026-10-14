@@ -43,7 +43,6 @@ header[data-testid="stHeader"]{background:transparent;}
     radial-gradient(500px 260px at 60% 120%, rgba(245,197,24,.25), transparent 60%),
     var(--surface);
 }
-.hero-eyebrow{color:var(--gold); font-size:.74rem; font-weight:600; letter-spacing:.32em; text-transform:uppercase;}
 .hero-title{
   font-family:'Bebas Neue',sans-serif; font-size:clamp(3.4rem,8vw,6.2rem); line-height:.92;
   letter-spacing:.03em; margin:.5rem 0 .6rem; color:#fff;
@@ -128,8 +127,7 @@ def hero_html(n_datasets: int, n_realtime: int) -> str:
     chip_html = "".join(f'<span class="chip {c}">{escape(t)}</span>' for t, c in chips)
     return f"""
 <div class="hero">
-  <div class="hero-eyebrow">Machine Learning Lab</div>
-  <div class="hero-title">ML <em>STUDIO</em></div>
+  <div class="hero-title">Machine Learning</div>
   <div class="hero-sub">Latih model, temukan pola tersembunyi, lalu diskusikan hasilnya bersama komunitas.</div>
   <div class="chips">{chip_html}</div>
   <div class="stats">
